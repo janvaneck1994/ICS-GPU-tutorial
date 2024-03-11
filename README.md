@@ -14,10 +14,15 @@ Replace `<solis-id>` with your actual SOLIS ID.
 
 ## Step 2: Clone the Tutorial Repository
 
-Clone the ICS GPU tutorial repository from GitHub and make it your working dir:
+Clone the ICS GPU tutorial repository from GitHub:
 
 ```bash
 git clone https://github.com/janvaneck1994/ICS-GPU-tutorial.git
+```
+
+Make it your working dir
+
+```bash
 cd ICS-GPU-tutorial
 ```
 
