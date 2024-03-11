@@ -14,10 +14,11 @@ Replace `<solis-id>` with your actual SOLIS ID.
 
 ## Step 2: Clone the Tutorial Repository
 
-Clone the ICS GPU tutorial repository from GitHub:
+Clone the ICS GPU tutorial repository from GitHub and make it your working dir:
 
 ```bash
 git clone https://github.com/janvaneck1994/ICS-GPU-tutorial.git
+cd ICS-GPU-tutorial
 ```
 
 ## Step 3: Load Python Module
