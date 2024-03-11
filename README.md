@@ -100,7 +100,7 @@ sbatch test_gpu.sh
 
 ## Step 10: Check the Test Output
 
-After the job has succeeded, check the output file `test_gpu_test.out`:
+After the job has succeeded, check the output file `test_gpu.out`:
 
 You should see:
 
