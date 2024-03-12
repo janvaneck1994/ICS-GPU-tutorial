@@ -20,6 +20,12 @@ Clone the ICS GPU tutorial repository from GitHub:
 git clone https://github.com/janvaneck1994/ICS-GPU-tutorial.git
 ```
 
+Make it your working dir
+
+```bash
+cd ICS-GPU-tutorial
+```
+
 ## Step 3: Load Python Module
 
 Load the Python module on CS01:
@@ -94,7 +100,7 @@ sbatch test_gpu.sh
 
 ## Step 10: Check the Test Output
 
-After the job has succeeded, check the output file `test_gpu_test.out`:
+After the job has succeeded, check the output file `test_gpu.out`:
 
 You should see:
 

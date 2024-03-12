@@ -6,8 +6,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=0:05:00
-#SBATCH --output=test_gpu_test.out
-#SBATCH --error=test_gpu_test.err
+#SBATCH --output=test_gpu.out
+#SBATCH --error=test_gpu.err
 
 # Load necessary modules
 module load cuda/12.2
