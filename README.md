@@ -104,6 +104,32 @@ GPU is available.
 
 This confirms that the GPU is properly configured and available for use.
 
----
+## Step 11: Run MNIST example
 
-Replace `<solis-id>` with your actual SOLIS ID where applicable. This tutorial guides you through setting up a Python environment for GPU computing on CS01.
+You can now run the MNIST example:
+
+Make mnist_example your working dir:
+
+```bash
+cd mnist_example
+```
+
+Run a job to train and test a FNN on the MNIST dataset
+
+```bash
+sbatch test_mnist.sh
+```
+
+## Step 12: Inspect MNIST result
+
+After the job is complete you can inspect the output in test_mnist.out:
+
+```
+GPU is available.
+...
+...
+...
+Test set: Average loss: 0.0001, Accuracy: 9626/10000 (96%)
+```
+
+---

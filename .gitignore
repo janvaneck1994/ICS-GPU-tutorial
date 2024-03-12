@@ -1,1 +1,3 @@
 ics_gpu_tutorial/*
+**/__pycache__/*
+mnist_example/data/*
