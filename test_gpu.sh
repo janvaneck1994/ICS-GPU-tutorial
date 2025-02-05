@@ -1,10 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=pytorch_gpu_test
 #SBATCH --partition=gpua16
-#SBATCH --gres=gpu:1
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=8
 #SBATCH --time=0:05:00
 #SBATCH --output=test_gpu.out
 #SBATCH --error=test_gpu.err
